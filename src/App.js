@@ -5,28 +5,7 @@ import Search from "./components/Search"
 import NotesList from "./components/NotesList"
 
 function App() {
-	const [notes, setNotes] = useState([
-		{
-			id: nanoid(),
-			text: "Hello my sweetie <3",
-			date: "22/06/2021",
-		},
-		{
-			id: nanoid(),
-			text: "WOHOO, Life is beautiful!",
-			date: "11/08/2021",
-		},
-		{
-			id: nanoid(),
-			text: "Never give-up! Chase for your dreams.",
-			date: "18/09/2021",
-		},
-		{
-			id: nanoid(),
-			text: "Self-love Time :)",
-			date: "30/09/2021",
-		}
-	]);
+	const [notes, setNotes] = useState([]);
 
   const [searchText, setSearchText] = useState('');
 
